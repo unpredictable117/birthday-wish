@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Billlluuuuu ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="hearts">
+    <span>❤️</span>
+    <span>💖</span>
+    <span>💕</span>
+    <span>❤️</span>
+    <span>💗</span>
+    <span>💞</span>
+    <span>❤️</span>
+</div>
+
+<!-- PAGE 1 -->
+
+<section id="welcome" class="page active">
+
+<h1>Happy Birthday Billlluuuuu ❤️</h1>
+
+<p>
+Today is all about the most beautiful person in my world.
+<br><br>
+I made something special just for you...
+</p>
+
+<button onclick="showPasscode()">
+Open Your Surprise 💌
+</button>
+<!-- HOME PAGE STICKERS -->
+
+<img src="images/stickers/gift-box-puppy.png" class="sticker sticker-1">
+<img src="images/stickers/heart-balloons.png" class="sticker sticker-2">
+<img src="images/stickers/i-love-you.png" class="sticker sticker-3">
+<img src="images/stickers/tulip.png" class="sticker sticker-4">
+<img src="images/stickers/crying-emoji.png" class="sticker sticker-5">
+</section>
+
+<!-- PAGE 2 -->
+
+<section id="passcode" class="page">
+
+<div class="lock-card">
+
+<div class="photo-card">
+
+<img src="images/happy-birthday.jpg" alt="Photo">
+
+<div class="photo-text">
+Happy Birthday Billlluuuuu ❤️
+</div>
+
+</div>
+
+<div class="passcode-side">
+
+<h2>Enter Our Secret Passcode ❤️</h2>
+
+<div class="passcode-boxes">
+
+<div class="digit" id="d1"></div>
+<div class="digit" id="d2"></div>
+<div class="digit" id="d3"></div>
+<div class="digit" id="d4"></div>
+<div class="digit" id="d5"></div>
+<div class="digit" id="d6"></div>
+
+</div>
+
+<div class="keypad">
+
+<button onclick="press('1')">1</button> <button onclick="press('2')">2</button> <button onclick="press('3')">3</button>
+
+<button onclick="press('4')">4</button> <button onclick="press('5')">5</button> <button onclick="press('6')">6</button>
+
+<button onclick="press('7')">7</button> <button onclick="press('8')">8</button> <button onclick="press('9')">9</button>
+
+<button onclick="backspace()">⌫</button> <button onclick="press('0')">0</button> <button onclick="submitPass()">❤️</button>
+
+</div>
+
+</div>
+
+</div>
+<img src="images/stickers/July-baby.png" class="sticker sticker-1">
+<img src="images/stickers/pupply-flowers.png" class="sticker sticker-2">
+<img src="images/stickers/1111.png" class="sticker sticker-3">
+<img src="images/stickers/i-love-you.png" class="sticker sticker-4">
+<img src="images/stickers/tulip.png" class="sticker sticker-5">
+</section>
+
+<!-- PAGE 3 -->
+
+<section id="gift" class="page">
+
+<h1>A Gift From My Heart ❤️</h1>
+
+<div class="gift-box" onclick="openGift()">
+    <img src="images/stickers/gift-box-puppy.png" alt="">
+</div>
+
+<p>Tap The Gift To Open ❤️</p>
+
+</section>
+
+<section id="gallery" class="page">
+
+<h1>Our Beautiful Memories ❤️</h1>
+
+<div class="memory-gallery">
+
+<div class="memory-card">
+<img src="images/stole.jpg">
+<p>The day you stole my heart ❤️</p>
+</div>
+
+<div class="memory-card">
+<img src="images/magical.jpg">
+<p>Every moment with you feels magical ✨</p>
+</div>
+
+<div class="memory-card">
+<img src="images/better.jpg">
+<p>You make every day better ❤️</p>
+</div>
+
+</div>
+
+<button onclick="showReasons()">
+Next Surprise ❤️
+</button>
+
+</section>
+
+<!-- PAGE 4 -->
+
+<section id="gallery2" class="page">
+
+    <h1>Our Beautiful Memories ❤️</h1>
+
+    <div class="memory-gallery">
+
+        <div class="memory-card">
+            <img src="images/stole.jpg">
+            <p>The day you stole my heart ❤️</p>
+        </div>
+
+        <div class="memory-card">
+            <img src="images/magical.jpg">
+            <p>Every moment with you feels magical ✨</p>
+        </div>
+
+        <div class="memory-card">
+            <img src="images/better.jpg">
+            <p>You make every day brighter ❤️</p>
+        </div>
+
+    </div>
+<img src="images/stickers/my-girl.png" class="sticker sticker-1">
+<img src="images/stickers/puppy-pigtails.png" class="sticker sticker-2">
+<img src="images/stickers/kitten.png" class="sticker sticker-3">
+<img src="images/stickers/sunglasses-cat.png" class="sticker sticker-4">
+<img src="images/stickers/tulip.png" class="sticker sticker-5">
+    <button onclick="showReasons()">
+        Next Surprise ❤️
+    </button>
+
+</section>
+<!-- PAGE 5 -->
+
+<section id="reasons" class="page">
+
+    <h1>20 Reasons I Love You ❤️</h1>
+
+<div class="reason-card">
+
+    <div id="reasonMedia"></div>
+
+    <h2 id="reasonTitle"></h2>
+
+    <p id="reasonText"></p>
+
+</div>
+
+    <button onclick="nextReason()">
+        Next ❤️
+    </button>
+<img src="images/stickers/i-love-you.png" class="sticker sticker-1">
+<img src="images/stickers/flower.png" class="sticker sticker-2">
+<img src="images/stickers/heart-balloons.png" class="sticker sticker-3">
+<img src="images/stickers/teddy.png" class="sticker sticker-4">
+<img src="images/stickers/monkey.png" class="sticker sticker-5">
+</section>
+<section id="letter" class="page">
+
+    <div class="letter-box">
+
+        <h1>To My Billlluuuuu ❤️</h1>
+
+<p id="letterText"></p>
+<h2>❤️ Together Since ❤️</h2>
+
+<p id="loveCounter">
+❤️ 581 Beautiful Days Of Loving You ❤️
+</p>
+<button onclick="showLoveMessage()">
+    💌 Open When You Miss Me
+</button>
+
+<button onclick="showFinalSurprise()">
+    One Last Surprise ❤️
+</button>
+
+    </div>
+<img src="images/stickers/my-girl.png" class="sticker sticker-1">
+<img src="images/stickers/flower.png" class="sticker sticker-2">
+<img src="images/stickers/teddy.png" class="sticker sticker-3">
+<img src="images/stickers/i-love-you.png" class="sticker sticker-4">
+<img src="images/stickers/sunglasses-cat.png" class="sticker sticker-5">
+<img src="images/stickers/tulip.png" class="sticker sticker-6">
+</section>
+<section id="finalSurprise" class="page">
+
+    <h1>I Love You Billlluuuuu ❤️</h1>
+
+    <img src="images/final.jpg" class="final-photo">
+
+    <p>
+        No matter how many birthdays come and go,
+        you will always be my favorite person. ❤️
+    </p>
+
+</section>
+<audio id="bgMusic" loop>
+    <source src="music/Saibo.mp3" type="audio/mpeg">
+</audio>
+<button id="musicBtn" onclick="toggleMusic()">
+    🎵 Our Song ❤️
+</button>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
