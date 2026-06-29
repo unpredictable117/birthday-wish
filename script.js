@@ -202,8 +202,8 @@ src:"images/reasons/love.jpg"
 {
 title:"8. Your Lips 💋",
 text:"One of my favorite things about you.",
-type:"image",
-src:"images/reasons/lips.jpg"
+type:"video",
+src:"videos/lips.mp4"
 },
 
 {
